@@ -7,10 +7,27 @@ body {
 }
 
 a {
-  color: inherit;
+  color: rgb(103, 103, 236);
   text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+}
+
+.nav-ul li {
+  color: rgb(103, 103, 236);
+  cursor: pointer;
+}
+
+.nav-ul li:hover {
+  color: blue;
 }
 
 * {
   box-sizing: border-box;
+}
+
+.selection .selected {
+  border: 2px solid blue;
 }
